@@ -1,3 +1,8 @@
 {
-  "nuxt.isNuxtApp": false
+  "nuxt.isNuxtApp": false,
+  "cSpell.ignoreWords": [
+    "rustup",
+    "venv",
+    "Kyykkä"
+  ]
 }
