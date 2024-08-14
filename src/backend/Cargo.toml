@@ -1,9 +1,0 @@
-[package]
-name = "kyykka_backend" # the name of the package
-version = "0.1.0"    # the current version
-edition = "2021"     # the Rust edition
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
-# No dependencies for a new project
