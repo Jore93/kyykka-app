@@ -27,3 +27,5 @@ Now the environment is ready. A new lambda function can be initialized with comm
 ```
 cargo lambda new <function_name>
 ```
+
+Before finishing close the virtual environment with command `deactivate`

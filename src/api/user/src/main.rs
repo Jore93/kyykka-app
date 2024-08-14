@@ -2,7 +2,7 @@ use lambda_http::{run, service_fn, tracing, Body, Error, Request, RequestExt, Re
 
 fn create(event: Request) -> Result<Response<Body>, Error> {
     Ok(Response::builder()
-        .status(200)
+        .status(201)
         .header("content-type", "text/html")
         .body("Hello, World!".into())
         .map_err(Box::new)?)
