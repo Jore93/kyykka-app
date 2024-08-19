@@ -22,3 +22,6 @@ Cargo.lock
 
 # Virtual environment for running cargo-lambda
 cargo-py
+
+# Terraform
+.terraform
