@@ -15,9 +15,9 @@ sudo snap install rustup --classic
 rustup default stable
 
 # Create python venv
-python3 -m venv cargo-py
+python3 -m venv <environment-name>
 # Activate venv
-source cargo-py/bin/activate
+source <environment-name>/bin/activate
 
 # Install cargo-lambda
 pip3 install cargo-lambda
