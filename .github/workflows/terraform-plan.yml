@@ -7,9 +7,9 @@ on:
       - develop
 
 env:
-  TF_CLOUD_ORGANIZATION: ${{ vars.TF_VAR_CLOUD_ORGANIZATION }}
-  TF_API_TOKEN: ${{ secrets.TF_VAR_API_TOKEN }}
-  TF_WORKSPACE: ${{ vars.TF_VAR_WORKSPACE }}
+  TF_VAR_CLOUD_ORGANIZATION: ${{ vars.TF_CLOUD_ORGANIZATION }}
+  TF_VAR_API_TOKEN: ${{ secrets.TF_API_TOKEN }}
+  TF_VAR_WORKSPACE: ${{ vars.TF_WORKSPACE }}
   CONFIG_DIRECTORY: "./"
 
 jobs:
